@@ -1,0 +1,1 @@
+console.log('O console funcionou corretamente') // vai funcionar como o print do python
