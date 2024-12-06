@@ -1,5 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 <?php 
         require_once 'Lutador.php';
+        require_once 'Luta.php';
         $l = array();
         $l[0] = new Lutador(
             "Pretty Boy",
@@ -60,4 +69,10 @@
             2,
             4
         );
+
+        $UEC01 = new Luta();
+        $UEC01->marcarLuta($l[0], $l[1]);
+        $UEC01->lutar();
     ?>
+</body>
+</html>
