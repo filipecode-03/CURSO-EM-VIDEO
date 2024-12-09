@@ -12,7 +12,9 @@
 
         // Métodos
         public function detalhes() {
-
+            echo "<hr>Livro ". $this->titulo ." escrito por ". $this->autor;
+            echo "<br> Páginas: ". $this->totPaginas ." atual ". $this->pagAtual;
+            echo "<br> Sendo lido por ". $this->leitor->getNome();
         }
 
         // Métodos Especiais
@@ -21,6 +23,8 @@
             $this->titulo = $titulo;
             $this->autor = $autor;
             $this->totPaginas = $totPaginas;
+            $this->aberto = false;
+            $this->pagAtual = 0;
             $this->leitor = $leitor;
         }
 
