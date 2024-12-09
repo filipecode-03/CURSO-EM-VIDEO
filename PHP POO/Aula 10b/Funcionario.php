@@ -1,4 +1,5 @@
 <?php 
+    require_once 'Pessoa.php';
     class Funcionario extends Pessoa {
         // Atributos
         private $setor;
@@ -6,7 +7,7 @@
 
         // Métodos
         public function mudarTrabalho() {
-
+            $this->trabalhando = ! $this->trabalhando;
         }
 
         // Métodos Especiais

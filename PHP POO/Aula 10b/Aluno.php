@@ -1,4 +1,5 @@
 <?php 
+    require_once 'Pessoa.php';
     class Aluno extends Pessoa {
         // Atributos
         private $matr;
@@ -6,7 +7,7 @@
 
         // Métodos
         public function cancelarMatr() {
-
+            echo "<p>Matricula será cancelada</p>";
         }
 
         //Métodos Especiais
