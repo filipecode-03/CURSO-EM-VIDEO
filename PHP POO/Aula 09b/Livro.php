@@ -1,6 +1,7 @@
 <?php 
     require_once 'Pessoa';
-    class Livro {
+    require_once 'Publicacao.php';
+    class Livro implements Publicacao {
         // Atributos
         private $titulo;
         private $autor;
@@ -63,6 +64,27 @@
         }
         function setLeitor($le) {
             $this->leitor = $le;
+        }
+
+        // Métedos abstratos
+        public function abrir() {
+            $this->aberto = true;
+        }
+        public function fechar() {
+            $this->aberto = false;
+        }
+        public function folhear($p) {
+            if ($p > $this->totPaginas) {
+                $this->pagAtual = 0;
+            } else {
+                $this->pagAtual = $p;
+            }
+        }   
+        public function avançarPag() {
+            $this->pagAtual ++;
+        }   
+        public function voltarPag() {
+            $this->pagAtual --;
         }
     }
 ?>
