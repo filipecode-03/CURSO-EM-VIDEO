@@ -13,5 +13,56 @@
         public function detalhes() {
 
         }
+
+        // Métodos Especiais
+        function __construct($titulo, $autor, $totPaginas, $leitor)
+        {
+            $this->titulo = $titulo;
+            $this->autor = $autor;
+            $this->totPaginas = $totPaginas;
+            $this->leitor = $leitor;
+        }
+
+        function getTitulo() {
+            return $this->titulo;
+        }
+        function setTitulo($ti) {
+            $this->titulo = $ti;
+        }
+
+        function getAutor() {
+            return $this->autor;
+        }
+        function setAutor($au) {
+            $this->autor = $au;
+        }
+
+        function getTotPaginas() {
+            return $this->totPaginas;
+        }
+        function setTotPaginas($tp) {
+            $this->totPaginas = $tp;
+        }
+
+        function getPagAtual() {
+            return $this->pagAtual;
+        }
+        function setPagAtual($pa) {
+            $this->pagAtual = $pa;
+        }
+
+        function getAberto() {
+            return $this->pagAtual;
+        }
+        function setAberto($ab) {
+            $this->aberto = $ab;
+        }
+
+        function getLeitor() {
+            return $this->leitor;
+        }
+        function setLeitor($le) {
+            $this->leitor = $le;
+        }
     }
 ?>
