@@ -7,7 +7,7 @@
 
         // Métodos
         public function pagarMensalidade() {
-
+            echo "<p>Pagando mensalidade do aluno". $this->nome ."</p>";
         }
 
         // Métodos Especiais
