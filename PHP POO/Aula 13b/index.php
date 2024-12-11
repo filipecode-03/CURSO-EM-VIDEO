@@ -11,14 +11,14 @@
         require_once 'Cachorro.php';
 
         $c = new Cachorro();
-            $c->reagir("Olá");
-            $c->reagir("Vai apanhar");
-            $c->reagir(12, 45);
-            $c->reagir(21, 80);
-            $c->reagir(true);
-            $c->reagir(false);
-            $c->reagir(2, 12.5);
-            $c->reagir(17, 4.5);
+            $c->reagirFrase("Olá");
+            $c->reagirFrase("Vai apanhar");
+            $c->reagirHora(11, 45);
+            $c->reagirHora(21, 00);
+            $c->reagirDono(true);
+            $c->reagirDono(false);
+            $c->reagirIdadePeso(2, 12.5);
+            $c->reagirIdadePeso(17, 4.5);
     ?>
 </body>
 </html>

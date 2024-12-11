@@ -2,14 +2,18 @@
     require_once 'Lobo.php';
     class Cachorro extends Lobo {
         // Métodos
-        public function reagir($frase) {
-            if ($frase = "toma comida" or $frase = "Olá") {
+        function emitirSom()
+        {
+            echo "<p>Au!Au!Au!</p>";
+        }
+        public function reagirFrase($frase) {
+            if ($frase == "Toma Comida" || $frase == "Olá") {
                 echo "Abanar e Latir";
             } else {
                 echo "Rosnar";
             }
         }
-        public function reagir($hora, $min) {
+        public function reagirHora($hora, $min) {
             if ($hora < 12) {
                 echo "Abanar";
             } elseif ($hora >= 18) {
@@ -18,14 +22,14 @@
                 echo "Abanar e Latir";
             }
         }
-        public function reagir($dono) {
-            if ($dono = true) {
+        public function reagirDono($dono) {
+            if ($dono) {
                 echo "Abanar";
             } else {
                 echo "Rosnar e Latir";
             }
         }
-        public function reagir($idade, $peso) {
+        public function reagirIdadePeso($idade, $peso) {
             if ($idade < 5) {
                 if ($peso < 10) {
                     echo "Abanar";
