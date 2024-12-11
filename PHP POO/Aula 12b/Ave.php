@@ -20,5 +20,13 @@
         public function fazerNinho() {
             echo "<p>Construiu um ninho</p>"; 
         }
+
+        // Métodos Especiais
+        public function getCorPena() {
+            return $this->corPena;
+        }
+        public function setCorPena($cp) {
+            $this->corPena = $cp;
+        }
     }
 ?>

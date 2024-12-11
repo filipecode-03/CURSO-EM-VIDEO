@@ -17,5 +17,13 @@
         {
             echo "<p>som de Réptil</p>";
         }
+
+        // Métodos Especiais
+        public function getCorEscama() {
+            return $this->corEscama;
+        }
+        public function setCorEscama($ce) {
+            $this->corEscama = $ce;
+        }
     }  
 ?>

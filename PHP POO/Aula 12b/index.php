@@ -8,9 +8,15 @@
 <body>
     <?php 
         require_once 'Mamifero.php';
+            require_once 'Canguru.php';
+            require_once 'Cachorro.php';
         require_once 'Reptil.php';
+            require_once 'Cobra.php';
+            require_once 'Tartaruga.php';
         require_once 'Peixe.php';
+            require_once 'GoldFish.php';
         require_once 'Ave.php';
+            require_once 'Arara.php';
 
         $m = new Mamifero();
             $m->setPeso(85.3);

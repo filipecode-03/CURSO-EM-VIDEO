@@ -20,5 +20,13 @@
         public function soltarBolha() {
             echo "<p>Soltou uma bolha</p>";
         }
+
+        // Métodos Especiais
+        public function getCorEscama() {
+            return $this->corEscama;
+        }
+        public function setCorEscama($ce) {
+            $this->corEscama = $ce;
+        }
     }
 ?>

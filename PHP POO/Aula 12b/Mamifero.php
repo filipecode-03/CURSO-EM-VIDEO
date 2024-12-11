@@ -17,5 +17,13 @@
         {
             echo "<p>som de Mamifero</p>";
         }
+
+        // Métodos Especiais
+        public function getCorPelo() {
+            return $this->corPelo;
+        }
+        public function setCorPelo($co) {
+            $this->corPelo = $co;
+        }
     }
 ?>

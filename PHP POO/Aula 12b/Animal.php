@@ -6,15 +6,9 @@
         protected $membros;
 
         // Métodos
-        public function locomover() {
-
-        }
-        public function alimentar() {
-
-        }
-        public function emitirSom() {
-
-        }
+        abstract function locomover();
+        abstract function alimentar();
+        abstract function emitirSom();
 
         // Métodos Especiais
         public function getPeso() {
