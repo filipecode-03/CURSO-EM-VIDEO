@@ -9,11 +9,11 @@
         public function locomover()
         {
             
-        }
+        } // Essa não é pra estar aqui, mais por conta de algum erro ela precisa estar aqui.
         public function alimentar()
         {
             
-        }
+        } // Essa não é pra estar aqui, mais por conta de algum erro ela precisa estar aqui.
 
         // Métodos Especiais
         public function getCorPelo() {
