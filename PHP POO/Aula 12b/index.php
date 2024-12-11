@@ -40,6 +40,24 @@
             $a->alimentar();
             $a->emitirSom();
             $a->fazerNinho();
+
+        $c = new Canguru();
+            $c->setPeso(55.30);
+            $c->setIdade(3);
+            $c->setMembros(4);
+            $c->locomover();
+            $c->alimentar();
+            $c->emitirSom();
+            $c->usarBolsa();
+        
+        $k = new Cachorro();
+            $k->setPeso(3.94);
+            $k->setIdade(5);
+            $k->setMembros(4);
+            $k->locomover();
+            $k->alimentar();
+            $k->emitirSom();
+            $k->abanarRabo();
     ?>
 </body>
 </html>
