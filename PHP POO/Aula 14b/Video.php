@@ -1,4 +1,5 @@
 <?php 
+    require_once 'AcoesVideo.php';
     class Video implements AcoesVideo {
         // Atributos
         private $titulo;
@@ -9,13 +10,13 @@
 
         // Métodos
         public function play() {
-
+            $this->curtidas ++;
         }
         public function pause() {
-
+            $this->reproduzindo = false;
         }
         public function like() {
-
+            $this->reproduzindo = true;
         }
 
         // Métodos Especiais
