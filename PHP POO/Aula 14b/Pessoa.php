@@ -1,5 +1,5 @@
 <?php 
-    class Pessoa {
+    abstract class Pessoa {
         protected $nome;
         protected $idade;
         protected $sexo;
