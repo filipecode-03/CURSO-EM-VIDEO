@@ -1,3 +1,5 @@
+![alt text](https://user-images.githubusercontent.com/49786548/84605442-9c00ed80-ae73-11ea-9d21-9b0f431c8bd1.png)
+
 # 📂 Curso em Vídeo - Professor Gustavo Guanabara 🎓
 Este repositório foi criado para organizar e armazenar todos os códigos apresentados nos cursos disponibilizados pelo professor **Gustavo Guanabara** no canal **Curso em Vídeo** no <b style="color:red;">Youtube</b>. Cada arquivo representa uma etapa do aprendizado proporcionado por uma das melhores plataformas de ensino online gratuitas 
 
