@@ -1,0 +1,1 @@
+Analisando a Issue #3 , vamos rever o que foi indicado pelo usuário.

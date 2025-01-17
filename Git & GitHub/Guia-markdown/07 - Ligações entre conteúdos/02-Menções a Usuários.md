@@ -1,0 +1,1 @@
+Durante o curso, usamos o perfil @gafanhotos para exercitar as ações em Git e GitHub. 
