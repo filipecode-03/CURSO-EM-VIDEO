@@ -16,5 +16,6 @@ O **Curso em Vídeo** é uma iniciativa incrível que oferece cursos gratuitos d
 
 ### ✨ Meu agradecimento:
 Gostaria de expressar meu imenso agradecimento ao professor **Gustavo Guanabara**. Sua didática clara e envolvente, combinada com o entusiasmo contagiante, transforma o aprendizado em algo leve e divertido. Seus cursos têm sido uma inspiração e um guia essencial na minha jornada no mundo da programação. Muito obrigado por compartilhar tanto conhecimento de forma gratuita e acessível! 👏🙏
+[img do professor Guanabara](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1I813yifkgKQYLVipRyQZESnNvJYooM_YJA&s)
 
 Este repositório é uma homenagem à qualidade e dedicação do **Curso em Vídeo** e ao impacto positivo que ele tem na vida de tantos estudantes! 🚀✨
