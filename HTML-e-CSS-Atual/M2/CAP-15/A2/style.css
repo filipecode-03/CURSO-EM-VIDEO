@@ -25,5 +25,18 @@ h2 {
 }
 
 .basico {
-    
+    color: #3c805e;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: #80793c;
+}
+
+.avancado {
+    color: #803c3c;
+}
+
+.destaque {
+    background-color: #c5c56070;
 }
