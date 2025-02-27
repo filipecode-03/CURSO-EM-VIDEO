@@ -1,0 +1,5 @@
+Todo o conteúdo do capítulo 17 é voltado para o projeto do web site Androind.
+
+Então todo as aulas vão estar divididas pelos comits.
+
+E claro esse projeto é o d010 tudo estara nesta pasta.
