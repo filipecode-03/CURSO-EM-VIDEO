@@ -1,0 +1,5 @@
+Todo o conteúdo do capítulo 23 é voltado para o projeto do web site Social.
+
+Então todo as aulas vão estar divididas pelos comits.
+
+E claro esse projeto é o d013 tudo estara nesta pasta.
