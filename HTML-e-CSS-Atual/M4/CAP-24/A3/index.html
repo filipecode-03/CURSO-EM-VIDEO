@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form autocomplete="off" action="cadastro.php" method="POST"> <!-- 
+        
+        O metodo get serve para dados não sensiveis e que tenham um limite de 3000 bytes ou seja umas 3000 letras 
+        
+        O metodo post serve para dados sensiveis e que tenham um volume de dados maior como fotos. Mais claro isso se o sistema httpS estiver ligado
+
+        -->
+        <p>
+            <label for="nome">Nome:</label> <input type="text" name="nome" id="nome">
+        </p>
+        <p>
+            <label for="sobrenome">Sobrenome:</label> <!-- O id do INPUT sempre é quem vai estar no for do LABEL --> <input type="text" name="sobrenome" id="sobrenome">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
